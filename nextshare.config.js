@@ -13,9 +13,9 @@ module.exports = {
     // Refer to docs/CONFIGURATION.md's "Authentication" for more information.
     authentication: [
         {
-            user: "user1", // The username to use when logging in
+            user: "spidy", // The username to use when logging in
             friendlyName: "User 1", // The friendly name (shows up in the frontend)
-            password: "examplePassword", // Set the user password here
+            password: "password", // Set the user password here
             roles: ["admin"] // Set user roles (see configuration docs for details)
         }
     ],
