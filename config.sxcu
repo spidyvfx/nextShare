@@ -1,0 +1,16 @@
+{
+  "Version": "14.0.1",
+    "Name": "nextShare",
+      "DestinationType": "ImageUploader, TextUploader, FileUploader",
+        "RequestMethod": "POST",
+          "RequestURL": "http://next-share-two.vercel.app/api/protected/upload",
+            "Headers": {
+                "auth_user": "spidy",
+                    "auth_pass": "password"
+                      },
+                        "Body": "MultipartFormData",
+                          "FileFormName": "toUpload",
+                            "URL": "{json:response.url}",
+                              "DeletionURL": "{json:response.deleteUrl}",
+                                "ErrorMessage": "{json:response}"
+                                }
