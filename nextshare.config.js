@@ -4,7 +4,7 @@
 
 module.exports = {
     access: {
-        baseUrl: "http://localhost:3000"
+        baseUrl: "https://next-share-two.vercel.app"
     },
     listener: {
         hostname: "127.0.0.1",
